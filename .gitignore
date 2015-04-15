@@ -8,6 +8,13 @@ lib/
 data/
 
 # sbt specific
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
 dist/*
 target/
 lib_managed/
@@ -22,3 +29,4 @@ project/plugins/project/
 .idea/
 *.iml
 *.iws
+.worksheet
